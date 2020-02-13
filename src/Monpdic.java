@@ -40,7 +40,8 @@
    if(die1 == die2) {
     System.out.print( ": Double:" );
  }
-if(die1 == die2 && die1 == die2 ){
+
+   if(die1 == die2 * 2 ){
    System.out.println(" You go to jail ");
 }
    System.out.print (" Die sum: " + sumOfDice) ;
